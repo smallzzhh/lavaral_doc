@@ -1,0 +1,7 @@
+
+控制器分组
+
+    例如：user\UserController
+    命令行创建:php artisan make:controller User/UserController
+
+    对应路由写法：Route::get('/user/name', 'User\UserController@name');

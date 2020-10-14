@@ -1,0 +1,15 @@
+安装注意事项
+
+升级composer保持最新
+composer self-update
+清除composer缓存
+composer clearcache
+替换阿里云镜像
+composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+重新创建
+composer create-project laravel/laravel --prefer-dist my-project
+
+
+
+
+
